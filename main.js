@@ -136,8 +136,5 @@ function procesarPoliza(event)
   formulario.reset()
 }
 
-/*const v1 = new Cl_PolizaDeVida(1,1000,0.50,17)
-const ve1 = new Cl_PolizaVehiculo(2,2000,0.60,1999)*/
-
 
 
