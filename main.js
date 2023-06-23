@@ -109,6 +109,11 @@ function procesarPoliza(event)
   const año = document.getElementById("año").value;
 
   let p;
+
+  if(nIdentificacion=="" || montAsegurar=="" || porcCobertura=="" )
+  {
+    alert("Introduzca los datos solicitados")
+  }
   
   if(edad!=="")
   {
