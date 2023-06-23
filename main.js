@@ -113,6 +113,7 @@ function procesarPoliza(event)
   if(nIdentificacion=="" || montAsegurar=="" || porcCobertura=="" )
   {
     alert("Introduzca los datos solicitados")
+    return;
   }
   
   if(edad!=="")
